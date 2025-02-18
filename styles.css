@@ -1,0 +1,335 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+:root{
+
+    --colortexto: #FFFFFF;
+    --colortextoresaltado: #20FF0C;
+    --fuente: "Abyssinica SIL", sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: #0D1117;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 39px;
+    color: var(--colortexto);
+    font-family: var(--fuente);
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    width: 100%;
+    
+    
+}
+
+.home{
+    text-decoration: none;
+}
+
+.sobremim{
+    text-decoration: none;
+}
+
+.skillsm{
+    text-decoration: none;
+}
+
+.experienciam{
+    text-decoration: none;
+}
+
+.contactom{
+    text-decoration: none;
+}
+
+
+
+.menu a:visited,
+.menu a:focus,
+.menu a:active {
+    color: var(--colortexto); /* O el color que usas por defecto */
+    text-decoration: none;
+    outline: none;
+}
+
+
+.imagenmain{
+
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    justify-items: center;
+    text-align: center;
+}
+
+.nombre{
+    font-size: 40px;
+    font-family: var(--fuente);
+    color: var(--colortexto);
+}
+
+.textoresaltar{
+    color: var(--colortextoresaltado);
+}
+
+.introduccion{
+    font-family: var(--fuente);
+    font-size: 24px;
+    color: var(--colortexto);
+    margin-top: 20px;
+}
+
+.cvcontacto{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    margin-bottom: 50px;
+    
+}
+
+
+.descargarcv{
+    font-family: var(--fuente);
+    font-size: 24px;
+    border-radius: 100px;
+    padding: 18px;
+    background-color: var(--colortexto);
+    text-decoration: none;
+    color: black;
+}
+
+
+.contactame{
+    font-family: var(--fuente);
+    font-size: 24px;
+    border-radius: 100px;
+    padding: 20px;
+    background-color: var(--colortexto);
+    color: black;
+    text-decoration: none;
+}
+
+
+.enlaces{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 47px;
+    align-items: center;
+}
+
+.linkedin{
+    border-radius: 100px;
+    padding: 15px;
+    background-color: var(--colortextoresaltado);
+}
+
+.github{
+    border-radius: 100px;
+    padding: 9px;
+    background-color: var(--colortextoresaltado);
+}
+
+#sobremi{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding: 200px;
+    
+}
+.sobremiintro{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 48px;
+    margin-right: 440px;
+}
+
+.sobremititulo{
+    font-family: var(--fuente);
+    font-size: 40px;
+    color: var(--colortexto); 
+}
+
+.textosobremi{
+    font-family: var(--fuente);
+    font-size: 20px;
+    color: var(--colortexto); 
+    margin-left: 400px;
+}
+
+.contenidoSobremi{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.skillsintro{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 48px;
+    margin-right: 500px;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding: 200px;
+}
+
+.skillstitulo{
+    font-family: var(--fuente);
+    font-size: 40px;
+    color: var(--colortexto);
+}
+
+.iconosskills1{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+
+.iconosskills2{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.experienciaintro{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-right: 380px;
+}
+
+#experiencia{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding: 90px;
+    
+}
+
+.empresa{
+    font-family: var(--fuente);
+    font-size: 24px;
+    color: var(--colortexto); 
+    margin-bottom: 20px;
+}
+
+.cargos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 80px;
+    text-align: center;
+    font-family: var(--fuente);
+    font-size: 20px;
+    color: var(--colortexto);
+
+}
+
+
+.arregloexperiencia{
+    display: flex;
+    flex-direction: row;  
+    gap: 50px; 
+}
+
+.contenidoexperiencia{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    font-family: var(--fuente);
+    font-size: 18px;
+    color: var(--colortexto);
+    text-align: justify;
+}
+
+#contactame{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding: 200px;
+}
+
+.contactameintro{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 60px;
+    margin-right: 380px;
+}
+
+.contactametitulo{
+    font-family: var(--fuente);
+    font-size: 40px;
+    color: var(--colortexto); 
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    font-family: var(--fuente);
+    font-size: 30px;
+    color: var(--colortexto); 
+    gap: 40px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.whatsapp{
+    display: flex;
+    align-items: center;
+    font-family: var(--fuente);
+    font-size: 30px;
+    color: var(--colortexto); 
+    gap: 25px;
+    margin-right: 92px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.piedepagina{
+    display: flex;
+    align-items: center;
+    font-family: var(--fuente);
+    font-size: 20px;
+    justify-content: center;
+    background-color: var(--colortexto);
+    padding: 1.5%;
+}
