@@ -45,22 +45,27 @@ body{
 
 .home{
     text-decoration: none;
+    color: var(--colortexto);
 }
 
 .sobremim{
     text-decoration: none;
+    color: var(--colortexto);
 }
 
 .skillsm{
     text-decoration: none;
+    color: var(--colortexto);
 }
 
 .experienciam{
     text-decoration: none;
+    color: var(--colortexto);
 }
 
 .contactom{
     text-decoration: none;
+    color: var(--colortexto);
 }
 
 
@@ -157,11 +162,12 @@ body{
 }
 
 #sobremi{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     height: 100vh;
     align-items: center;
-    padding: 200px;
+    padding: 20px;
     
 }
 .sobremiintro{
@@ -182,7 +188,13 @@ body{
     font-family: var(--fuente);
     font-size: 20px;
     color: var(--colortexto); 
-    margin-left: 400px;
+    margin-left: 580px;
+}
+
+.sobremifoto{
+    width: 10%;
+    height: 80%;
+    margin-right: 200px;
 }
 
 .contenidoSobremi{
@@ -254,30 +266,23 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 80px;
-    text-align: center;
+    gap: 15px;
+    text-align: justify;
     font-family: var(--fuente);
-    font-size: 20px;
+    font-size: 18px;
     color: var(--colortexto);
-
+    margin-right: 290px;
 }
+
+
 
 
 .arregloexperiencia{
     display: flex;
     flex-direction: row;  
-    gap: 50px; 
+    gap: 1px; 
 }
 
-.contenidoexperiencia{
-    display: flex;
-    flex-direction: column;
-    gap: 45px;
-    font-family: var(--fuente);
-    font-size: 18px;
-    color: var(--colortexto);
-    text-align: justify;
-}
 
 #contactame{
     display: flex;
@@ -319,8 +324,12 @@ body{
     font-size: 30px;
     color: var(--colortexto); 
     gap: 25px;
-    margin-right: 92px;
+    margin-right: 190px;
     margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.whatsapptext{
     text-decoration: none;
 }
 
@@ -333,3 +342,272 @@ body{
     background-color: var(--colortexto);
     padding: 1.5%;
 }
+
+@media (max-width: 1200px) {
+
+    .menu{
+        
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    color: var(--colortexto);
+    font-family: var(--fuente);
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    width: 100%;
+    
+    }
+
+    .imagenmain{
+        width: 50%;
+        
+    }
+    #main{
+        width: 100%;
+        align-items: center;
+    }
+
+    .introduccion{
+        font-size: 15px;
+    }
+    .nombre{
+        font-size: 18px;
+    }
+    .descargarcv{
+        width: 100px;
+        font-size: 10px;
+        font-family: var(--fuente);
+        border-radius: 100px;
+        padding: 18px;
+        background-color: var(--colortexto);
+        text-decoration: none;
+        color: black;
+    }
+    .contactame{
+        width: 100px;
+        font-size: 10px;
+        font-family: var(--fuente);
+        border-radius: 100px;
+        padding: 18px;
+        background-color: var(--colortexto);
+        text-decoration: none;
+        color: black;
+    }
+
+    .enlaces{
+        gap: 10px
+    }
+
+    .linkedin{
+        border-radius: 50px;
+        padding: 8px;
+        background-color: var(--colortextoresaltado);
+    }
+
+    .linkedinimg{
+        width: 50%;
+    }
+    .github{
+        border-radius: 50px;
+        padding: 5px;
+        background-color: var(--colortextoresaltado);
+    }
+
+    .githubimg{
+        width: 50%;
+    }
+    
+
+    #sobremi{
+        height: 100vh;
+        align-items: center;
+        padding: 40px;
+        width: 100%;
+        gap: 20px;
+        
+    }
+
+    .sobremiintro{
+        margin-top: 100px;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    
+
+    .sobremiicono{
+        width: 30px;
+    }
+
+    .sobremititulo{
+        font-size: 20px;
+    }
+
+    .sobremifoto{
+        display: none;
+    }
+
+    .textosobremi{
+        white-space: normal;
+        display: inline;
+        max-width: 100%;
+        font-family: var(--fuente);
+        font-size: 15px;
+        color: var(--colortexto); 
+        margin-left: 0;
+        text-align: justify;
+    }
+
+    .textosobremi br{
+        display: none;
+    }
+ 
+    #skills{
+        height: 100vh;
+        align-items: center;
+        padding: 40px;
+        width: 100%;
+        gap: 80px;
+
+    }
+
+    .skillsintro{
+        margin-top: 100px;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .skillsicon{
+        width: 30px;
+    }
+
+    .skillstitulo{
+        font-size: 20px;
+    }
+
+    .icon{
+        width: 30px;
+    }
+
+    #experiencia{
+        height: 100vh;
+        align-items: center;
+        padding: 40px;
+        width: 100%;
+        gap: 7px;
+    }
+
+    .experienciaintro{
+        margin-top: 90px;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .experienciaimg{
+        width: 20%;
+    }
+
+    .empresa{
+        font-size: 15px;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+        margin-right: 0px;
+    }
+
+    .cargos{
+        font-size: 12px;
+        gap:10px;
+        margin-right: 0px;
+    }
+
+    .contenidoexperiencia{
+        font-size: 13px;
+        text-align: justify;
+        gap:15px;
+       
+    }
+
+    .contenidoexperiencia br{
+        display: none;
+    }
+   
+    #contactame{
+        height: 100vh;
+        align-items: center;
+        padding: 40px;
+        width: 100%;
+        gap: 80px;
+        
+    }
+   
+
+
+
+    .contactameintro{
+        margin-top: 100px;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .contactameimg{
+        width: 20%;
+    }
+    .contactametitulo{
+        font-size: 20px;
+    }
+    .correo{
+        font-size: 15px;
+    }
+    .mail{
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .whatsapp{
+        margin-bottom: 0px;
+        margin-right: 50px;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .mailicon{
+        width: 11%;
+    }
+
+    .whatsapptext{
+        font-size: 15px;
+    }
+
+    .whatsappimg{
+        width: 50%;
+    }
+
+    .contactame{
+        width: 100px;
+        font-size: 10px;
+        font-family: var(--fuente);
+        border-radius: 100px;
+        padding: 18px;
+        background-color: var(--colortexto);
+        text-decoration: none;
+        color: black;
+    }
+
+    .piedepagina{
+        font-size: 10px;
+    }
+}
+
