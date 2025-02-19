@@ -433,7 +433,7 @@ body{
         
         .enlaces{
             padding: 5px;
-            gap: 2px;
+            gap: 10px;
         }
 
         .linkedin{
@@ -595,7 +595,7 @@ body{
         }
 
         #contactame .enlaces{
-            padding: 4px;
+            gap:2px;
         }
 
         #contactame .linkedin{
