@@ -433,6 +433,7 @@ body{
         
         .enlaces{
             padding: 5px;
+            gap: 2px;
         }
 
         .linkedin{
@@ -466,6 +467,10 @@ body{
             margin-top: 80px;
             padding: 5px;
             justify-content: center;
+        }
+
+        .sobremifoto{
+            width: 50%;
         }
 
         .sobremititulo{
