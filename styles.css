@@ -393,7 +393,7 @@ body{
             height:auto;
             width: 100%;
             align-items: center;
-            padding: min(2em,5%);
+            padding: 10px;
         }
         .nombre{
             font-size: 20px;
