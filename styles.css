@@ -401,6 +401,11 @@ body{
         }
         .introduccion{
             font-size:15px;
+            padding: 5px;
+        }
+
+        .introduccion br{
+            display: none;
         }
 
         .cvcontacto{
@@ -426,8 +431,28 @@ body{
         }
         
         .enlaces{
-            display: none;
+            padding: 5px;
         }
+
+        .linkedin{
+            border-radius: 50px;
+            padding: 8px;
+            background-color: var(--colortextoresaltado);
+        }
+    
+        .linkedinimg{
+            width: 50%;
+        }
+        .github{
+            border-radius: 50px;
+            padding: 5px;
+            background-color: var(--colortextoresaltado);
+        }
+    
+        .githubimg{
+            width: 50%;
+        }
+        
         #sobremi{
             display: none;
         }
